@@ -43,7 +43,7 @@ app.use(helmet({
 
 // 2. CORS configuration
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "dms-frontend-lilac.vercel.app",
   credentials:true
 }));
 
